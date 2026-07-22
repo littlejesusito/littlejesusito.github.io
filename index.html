@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory Card | Guarda tus mejores recuerdos gamer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#" class="" aria-label="Memory Card - Inicio">
+      <span class="" aria-hidden="true">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/Logo.webp" width="40" height="40">
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#" class="nav-link active">Inicio</a>
+      <a href="#hot-news" class="nav-link">Blogs y noticias</a>
+      <a href="#" class="nav-link">Juegos guardados</a>
+      <a href="#" class="nav-link">Perfil personal</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Buscar">
+         <img src="https://clubnomada.travel/wp-content/uploads/2026/07/Lupa.webp" width="40" height="25">
+      </button>
+      <button class="btn-primary">Registrarse</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <input type="text" placeholder="Buscar videojuegos, reseñas, usuarios…" aria-label="Buscar">
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content">
+    <h1>¿Preparado para<br>guardar tus<br>mejores<br>recuerdos?</h1>
+  </div>
+</section>
+
+<main>
+
+  <!-- ===================== POPULARES DE LA SEMANA ===================== -->
+  <section class="section carousel-section" aria-labelledby="popularesTitle">
+    <div class="section-header">
+      <h2 id="popularesTitle">Populares de la semana</h2>
+      <button class="btn btn-lime">Ver todos</button>
+    </div>
+
+    <div class="carousel-wrap">
+      <button class="carousel-arrow left" data-target="popularesTrack" aria-label="Anterior">‹</button>
+      <div class="carousel-track" id="popularesTrack">
+        <!-- cards injected by JS -->
+      </div>
+      <button class="carousel-arrow right" data-target="popularesTrack" aria-label="Siguiente">›</button>
+    </div>
+  </section>
+
+  <!-- ===================== MEMORY CARD TE PERMITE ===================== -->
+  <section class="section">
+    <h2 class="section-title-plain">Memory Card te permite</h2>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <span class="" style="color:#ff2d95;">
+          <img style="margin-top: 15px;" src="https://clubnomada.travel/wp-content/uploads/2026/07/eye-line.png" width="200" height="">
+        </span>
+        <p style="text-align:justify;">Lleva un registro de todos los videojuegos que has jugado (o empieza desde el día en que te registraste).</p>
+      </article>
+
+      <article class="feature-card">
+        <span class="" style="color:#ff2d95">
+          <img style="margin-top: 15px;"  src="https://clubnomada.travel/wp-content/uploads/2026/07/Vector.png" width="90" height="">
+        </span>
+        <p style="text-align:justify;">Demuestra tu apoyo a tus videojuegos, listas y reseñas <br> favoritas con un "me gusta".</p>
+      </article>
+
+      <article class="feature-card">
+        <span class="" style="color:#ff2d95">
+          <img style="margin-top: 15px;"  src="https://clubnomada.travel/wp-content/uploads/2026/07/bar-chart-horizontal-fill.png" width="150" height="">
+        </span>
+        <p style="text-align:justify;">Escribe y comparte reseñas, sigue a amigos y otros miembros para leer las suyas.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== HOT NEWS ===================== -->
+  <section class="section" id="hot-news" aria-labelledby="hotNewsTitle">
+    <div class="section-header">
+      <h2 id="hotNewsTitle">Hot news</h2>
+      <button class="btn btn-lime">Leer artículos</button>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card news-main" style="background:#432b38">
+        <div class="news-img news-img--frame" style="background:linear-gradient(135deg,#3a1e52,#1a1020);background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/Mina-the-Hollower.webp);background-size: cover;">
+          <span class="news-badge">Mina the Hollower</span>
+        </div>
+        <h3 style="text-align: center;color: #fff;">Mina the Hollower ya está aquí: una nueva joya para los amantes de la aventura retro</h3>
+        <p style="text-align: center;color: #fff;">Tras una larga espera, Mina the Hollower finalmente llegó a los jugadores con una propuesta que combina exploración, acción y una estética inspirada en los clásicos. Gracias a su sistema de excavación, sus desafiantes combates y su mundo lleno de secretos, el título se ha convertido en una de las experiencias indie más destacadas del momento.</p>
+      </article>
+
+      <article class="news-card">
+        <h3 style="padding-top: 0px !important;margin-top: 0px !important;">¿Saldrá GTA VI?</h3>
+        <div  style="background:linear-gradient(160deg,#2b3a55,#12182a);background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/SALDRA-GTA-VI.webp);background-size: cover;height: 360px;">
+        </div>
+
+        <p style="text-align: center;color: #fff;">Aunque Rockstar ya ha mostrado avances del juego, muchos fanáticos continúan atentos a cualquier noticia sobre su lanzamiento, convirtiéndolo en uno de los títulos más esperados de los últimos años.</p>
+      </article>
+
+      <article class="news-card">
+        <h3 style="padding-top: 0px !important;margin-top: 0px !important;">Mewgenics vuelve</h3>
+        <div style="background:linear-gradient(160deg,#4a4432,#1c1a12);background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/MEWGENICS-VUELVE.webp);background-size: cover;height: 360px;">
+        </div>
+   
+        <p style="text-align: center;color: #fff;">Mewgenics continúa despertando la curiosidad de los fanáticos gracias a su peculiar mezcla de estrategia. Su estilo único lo convierte en uno de los proyectos independientes más interesantes del panorama actual.</p>
+      </article>
+    </div>
+
+    <div class="quote-grid">
+      <div class="quote-card">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/Espada.png" width="120px" style="background:#5d00ff;padding: 18px;border-radius: 5px;">
+        <p style="text-align:center;">De lo mejor en acción y aventura. ¡Como en los viejos tiempos!</p>
+      </div>
+      <div class="quote-card">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/llama.png" width="110px" style="background:#5d00ff;padding: 18px;border-radius: 5px;">
+        <p style="text-align:center;">Recién salido del horno. Menos de una semana y ya es un hit!</p>
+      </div>
+      <div class="quote-card">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/cara.png" width="120px" style="background:#5d00ff;padding: 18px;border-radius: 5px;">
+        <p style="text-align:center;">Increíble recepción del público. ¡La gente adoró el formato del juego!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VIDEOJUEGOS CON MÁS FANS ===================== -->
+  <section class="section carousel-section" aria-labelledby="fansTitle">
+    <div class="section-header">
+      <h2 id="fansTitle">Videojuegos con más fans en Memory Card</h2>
+      <button class="btn btn-lime">Ver más</button>
+    </div>
+
+    <div class="carousel-wrap">
+      <button class="carousel-arrow left" data-target="fansTrack" aria-label="Anterior">‹</button>
+      <div class="carousel-track" id="fansTrack">
+        <!-- cards injected by JS -->
+      </div>
+      <button class="carousel-arrow right" data-target="fansTrack" aria-label="Siguiente">›</button>
+    </div>
+  </section>
+
+  <!-- ===================== LOS INDIES MÁS VENDIDOS ===================== -->
+  <section class="section">
+    <h2 class="section-title-plain">Los indies más vendidos de la historia</h2>
+    <div class="indies-banner">
+      <div class="indies-banner-bg" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEÑAS POPULARES ===================== -->
+  <section class="section" aria-labelledby="resenasTitle">
+    <h2 id="resenasTitle" class="section-title-plain">Reseñas populares de la semana</h2>
+
+    <div class="review-grid">
+      <article class="review-card">
+        <div class="review-cover" style="background:linear-gradient(135deg,#3a1e52,#1a1020);background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/Popular_01.webp);background-size: cover;"></div>
+        <div  style="padding:10px 0px 0px 0px;" class="review-body">
+          <h3>Mina The Hollower</h3>
+          <div class="review-meta">
+            <span class="review-user">👤 alt.vibe</span>
+            <span class="review-hearts">♥ ♥ ♥ ♥ ♡</span>
+          </div>
+          <p>Los escenarios están llenos de secretos y el sistema de excavación es muy divertido de usar.</p>
+        </div>
+      </article>
+
+      <article class="review-card">
+        <div class="review-cover" style="background:linear-gradient(135deg,#3c6e4f,#16321f);background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/Con-mas-fans-3.webp);background-size: cover;"></div>
+        <div style="padding:10px 0px 0px 0px;" class="review-body">
+          <h3>Stardew Valley</h3>
+          <div class="review-meta">
+            <span class="review-user">👤 juister</span>
+            <span class="review-hearts">♥ ♥ ♥ ♥ ♥</span>
+          </div>
+          <p>Combina perfectamente la nostalgia de los juegos clásicos con mecánicas modernas y dinámicas.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada del videojuego" hidden>
+  <div class="lightbox-overlay" data-close="true"></div>
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Juego anterior">‹</button>
+
+    <div class="lightbox-cover" id="lightboxCover"></div>
+
+    <div class="lightbox-info">
+      <h3 id="lightboxTitle"></h3>
+      <p class="lightbox-rating" id="lightboxRating"></p>
+    </div>
+
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente juego">›</button>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="logo-icon" aria-hidden="true">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/logo.png" width="150px">
+      </span>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#hot-news">Blogs y noticias</a>
+      <a href="#">Juegos guardados</a>
+      <a href="#">Perfil personal</a>
+      <a href="#">Registrarse</a>
+    </nav>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/Facebook-Icon.png" width="45">
+      </a>
+      <a href="#" aria-label="Instagram">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/Instagram-Icon.png" width="">
+      </a>
+      <a href="#" aria-label="X (Twitter)">
+        <img src="https://clubnomada.travel/wp-content/uploads/2026/07/X-Icon.png" width="">
+      </a>
+    </div>
+
+    <p class="footer-legal">
+      Política de Privacidad | Términos y Condiciones | Política de Cookies | Soporte | Contacto<br>
+      ©2026 MemoryCard. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
