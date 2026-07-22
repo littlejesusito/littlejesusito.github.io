@@ -246,7 +246,7 @@ h1,h2,h3{ margin:0; font-weight:400; }
     radial-gradient(circle at 80% 30%, rgba(108,43,245,.4), transparent 50%),
     linear-gradient(135deg, #2c1c3d 0%, #1a1420 60%, #171719 100%);
   background-size: cover;
-  background-image: url("https://clubnomada.travel/wp-content/uploads/2026/07/Banner-Hero-scaled.webp");;
+  background-image: url("https://res.cloudinary.com/dfe5klw9g/image/upload/v1784744468/fondo-hero_arefbt.png");;
 }
 .hero-content{
   max-width: var(--container);
@@ -461,7 +461,7 @@ h1,h2,h3{ margin:0; font-weight:400; }
   background:
     linear-gradient(90deg, rgba(23,23,27,.15) 0%, rgba(23,23,27,.55) 100%),
     linear-gradient(120deg, #274233 0%, #1c2b3d 35%, #2b2440 65%, #16161a 100%);
-    background-image: url(https://clubnomada.travel/wp-content/uploads/2026/07/LOS-INDIES-MAS-VENDIDOS.webp);
+    background-image: url(https://res.cloudinary.com/dfe5klw9g/image/upload/v1784743743/indies-banner_r6eday.png);
     background-size: cover;
 }
 
